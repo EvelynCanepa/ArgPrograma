@@ -188,7 +188,7 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #fff;
+  color: rgb(57, 49, 126);
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -210,13 +210,13 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
-  color: #fff;
+  color: rgb(68, 0, 255);
 }
 
 #intro .intro-info .btn-get-started {
   background: #007bff;
   border: 2px solid #007bff;
-  color: #fff;
+  color: rgb(68, 0, 255);
 }
 
 #intro .intro-info .btn-get-started:hover {
@@ -607,7 +607,7 @@ h6 {
 
 #services .icon {
   position: absolute;
-  left: -10px;
+  left: 4px;
   top: calc(50% - 32px);
 }
 
