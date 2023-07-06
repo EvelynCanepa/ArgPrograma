@@ -121,3 +121,4 @@
 
 })(jQuery);
 
+let formulario = document.getElementsByClass(form)

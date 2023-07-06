@@ -8,11 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Encode Sans", sans-serif;
 }
 
 a {
@@ -39,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans Bold", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -201,7 +203,7 @@ h6 {
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans Bold", sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -216,23 +218,25 @@ h6 {
 #intro .intro-info .btn-get-started {
   background: #007bff;
   border: 2px solid #007bff;
-  color: rgb(68, 0, 255);
+  color: #fff;
 }
 
 #intro .intro-info .btn-get-started:hover {
   background: none;
-  border-color: #fff;
-  color: #fff;
+  border-color: 2px solid #007bff;
+  color: rgb(68, 0, 255);
 }
 
 #intro .intro-info .btn-services {
-  border: 2px solid #fff;
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
-  color: #fff;
+  background: none;
+  border-color: 2px solid #007bff;
+  color: rgb(68, 0, 255);
 }
 
 /*--------------------------------------------------------------
@@ -262,12 +266,12 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #E71964
+  color: #000000
   ;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -455,10 +459,11 @@ h6 {
 --------------------------------*/
 
 .section-header h3 {
+  text-decoration: underline;
   font-size: 36px;
-  color: #283d50;
+  color: #221c5c;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
 }
 
@@ -595,7 +600,8 @@ h6 {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #fff;
+  background: blue;
+  color: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
@@ -625,7 +631,7 @@ h6 {
 }
 
 #services .title a {
-  color: #111;
+  color: #fff;
 }
 
 #services .box:hover .title a {
@@ -699,7 +705,7 @@ h6 {
 }
 
 #why-us .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -709,7 +715,7 @@ h6 {
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-size: 14px;
   color: #cce5ff;
 }
@@ -1069,7 +1075,7 @@ h6 {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1079,7 +1085,7 @@ h6 {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   color: #888;
 }
 
@@ -1152,7 +1158,7 @@ h6 {
 }
 
 #contact .form .validation {
-  color: red;
+  color: green;
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
@@ -1205,7 +1211,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1216,7 +1222,7 @@ h6 {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   color: #ecf5ff;
 }
 
