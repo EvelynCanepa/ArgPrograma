@@ -6,6 +6,7 @@ jQuery(document).ready(function($) {
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+      alert("¡Gracias por tu mensaje! Te responderemos a la brevedad");
 
     f.children('input').each(function() { // run all inputs
 
@@ -104,7 +105,6 @@ jQuery(document).ready(function($) {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
-          alert("¡Gracias por tu mensaje! te responderemos a la brevedad");
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
