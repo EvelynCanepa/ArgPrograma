@@ -480,7 +480,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: url(../img/intro-bg.png);
 }
 
 /* About Us Section
@@ -592,6 +592,7 @@ h6 {
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background: url(../img/intro-bg.png)
 }
 
 #services .box {
@@ -1013,6 +1014,9 @@ h6 {
   margin: 0 2px;
 }
 
+.alineacion-equipo {
+  text-align: center;
+}
 /* Clients Section
 --------------------------------*/
 
@@ -1055,6 +1059,20 @@ h6 {
 
 #clients img {
   transition: all 0.4s ease-in-out;
+}
+
+/* Blog Section
+--------------------------------*/
+#blog{
+  background: url(../img/intro-bg.png)
+}
+.icon-box{
+  border: #111;
+  background-color: #fff;
+}
+.icon-box:hover{
+  background-color:#007bff;
+  color:#fff
 }
 
 /* Contact Section
